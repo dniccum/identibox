@@ -9,7 +9,7 @@
 */
 
 if (!jQuery) {
-    throw 'Identi Box requires jQuery to be loaded first';
+    throw 'IdentiBox requires jQuery to be loaded first';
 }
 
 (function( $ ){
@@ -44,7 +44,7 @@ if (!jQuery) {
         //LOADS INITIATES ON PAGE LOAD
         $(window).ready(function() {
             var windowWidth = window.innerWidth();
-            
+
             if (windowWidth >= 768) {
                 calculateHeight();
             }
