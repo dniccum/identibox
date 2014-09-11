@@ -3,6 +3,24 @@ IdentiBox
 
 A super lightweight, easy-to-use jQuery plugin that identifies a series of HTML elements and makes them all of the same height; based on the element of the greatest size.
 
+## To install
+
+#### Via bower
+
+Type the command below into your terminal to install with bower:
+
+```
+bower install identibox --save
+```
+
+#### Via git
+
+Type the command below to clone this repository:
+
+```
+git clone git@github.com:dniccum/identibox.git
+```
+
 ## Why Use It?
 
 A common problem that we as web developers have is when we have columns horizontally stacked across the page, content forces buttons and photos to not appear the same level when looking from right to left because the content and/or images may different heights. IdentiBox loops through the targeted element and using javascript changes the height of each element based on the element with the **LARGEST** height. In doing so, this forces the elements below the targeted element to line up.
@@ -24,6 +42,7 @@ Include jQuery 1.8+ and identiBox.js in your layout and target your videos conta
 ## Changelog
 *09.11.14 - v1.0.0
 	* Initial release
+
 *09.11.14 - v1.0.1
 	* Fixed small responsive bug
 
