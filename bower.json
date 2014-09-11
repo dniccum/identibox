@@ -1,6 +1,6 @@
 {
   "name": "IdentiBox",
-  "version": "1.0",
+  "version": "1.0.1",
   "main": "./identiBox.js",
   "authors": [
     "Doug Niccum <dniccum@ingenology.com>",
