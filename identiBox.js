@@ -43,7 +43,7 @@ if (!jQuery) {
 
         //LOADS INITIATES ON PAGE LOAD
         $(window).ready(function() {
-            var windowWidth = window.innerWidth();
+            var windowWidth = window.innerWidth;
 
             if (windowWidth >= 768) {
                 calculateHeight();
@@ -52,7 +52,7 @@ if (!jQuery) {
 
         //RECALCULATES ON WINDOW RESIZE
         $(window).resize(function(){
-            var windowWidth = window.innerWidth();
+            var windowWidth = window.innerWidth;
 
             if (windowWidth >= 768) {
                 clearHeight();
