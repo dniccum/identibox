@@ -1,0 +1,27 @@
+{
+  "name": "IdentiBox",
+  "version": "1.0",
+  "main": "./identiBox.js",
+  "authors": [
+    "Doug Niccum <dniccum@ingenology.com>",
+    "Luke Bettis <lbettis@uncommonsense.com>"
+  ],
+  "keywords": [
+    "jquery",
+    "height",
+    "same height",
+    "size"
+  ],
+  "description": "IdentiBox makes elements all the same height; regardless of content.",
+  "dependencies": {
+    "jquery": ">= 1.8.0"
+  },
+  "license": "GPL v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
