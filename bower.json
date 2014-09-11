@@ -10,7 +10,8 @@
     "jquery",
     "height",
     "same height",
-    "size"
+    "size",
+    "identibox"
   ],
   "description": "IdentiBox makes elements all the same height; regardless of content.",
   "homepage": "https://github.com/dniccum/identibox",
