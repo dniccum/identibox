@@ -43,7 +43,11 @@ if (!jQuery) {
 
         //LOADS INITIATES ON PAGE LOAD
         $(window).ready(function() {
-            calculateHeight();
+            var windowWidth = window.innerWidth();
+            
+            if (windowWidth >= 768) {
+                calculateHeight();
+            }
         });
 
         //RECALCULATES ON WINDOW RESIZE
