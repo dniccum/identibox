@@ -4,7 +4,7 @@
 * IdentiBox v1.0
 *
 * Copyright 2014, Doug Niccum - http://dniccumdesign.com + Luke Bettis
-* Released under the WTFPL license - http://sam.zoy.org/wtfpl/ 
+* Released under the GPL v2 license - http://www.gnu.org/licenses/gpl-2.0.html
 *
 */
 
