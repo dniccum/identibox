@@ -24,6 +24,8 @@ Include jQuery 1.8+ and identiBox.js in your layout and target your videos conta
 ## Changelog
 *09.11.14 - v1.0.0
 	* Initial release
+*09.11.14 - v1.0.1
+	* Fixed small responsive bug
 
 ## Credits
 [@dgniccum](http://twitter.com/dgniccum), [@LaBettis](http://twitter.com/LaBettis)
