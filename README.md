@@ -25,7 +25,7 @@ git clone git@github.com:dniccum/identibox.git
 
 A common problem that we as web developers have is when we have columns horizontally stacked across the page, content forces buttons and photos to not appear the same level when looking from right to left because the content and/or images may different heights. IdentiBox loops through the targeted element and using javascript changes the height of each element based on the element with the **LARGEST** height. In doing so, this forces the elements below the targeted element to line up.
 
-IdentiBox is also **responsive**. When the browser window is resized, it will continue to look at the largest element and resize it. However with the browser window loads or proceeds to be resized below `768px`, the height of the targeted elements will be reset to their original heights. This will respect fluid mobile layouts.
+IdentiBox is also **responsive**. When the browser window is resized, it will continue to look at the largest element and resize it. However with the browser window loads or proceeds to be resized below `960px`, the height of the targeted elements will be reset to their original heights. This will respect fluid mobile layouts. If you wish to change the way this number is set, please read below under the section "Customizing IdentiBox."
 
 ## How Do I Use It?
 Include jQuery 1.8+ and identiBox.js in your layout and target your elements with `identiBox()`.
