@@ -38,13 +38,37 @@ Include jQuery 1.8+ and identiBox.js in your layout and target your elements wit
 </script>
 ```
 
+## Customizing IdentiBox
+
+There are a set of options that are available to you to change the way that IdentiBox behaves. **Note:** these options are dependant upon each other.
+
+#### Defaults
+
+```javascript
+responsiveActive: true,
+startResponsive: 960
+```
+
+`responsiveActive`
+
+By making `responsiveActive` true, you are telling IdentiBox to watch the screen size and to resize the target element when the screen resizes.
+
+`startResponsive`
+
+Giving `startResponsive` an integer value defines when you want to tell IdentiBox to stop resize your container that you are watching
 
 ## Changelog
 *09.11.14 - v1.0.0
+
 	* Initial release
 
 *09.11.14 - v1.0.1
+
 	* Fixed small responsive bug
+
+*09.24.14 - v1.1
+
+	* Added the ability to turn on/off responsive support and create a custom turn-off point
 
 ## Credits
 [@dgniccum](http://twitter.com/dgniccum), [@LaBettis](http://twitter.com/LaBettis)
